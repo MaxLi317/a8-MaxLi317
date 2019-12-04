@@ -20,6 +20,7 @@ public class Controller implements SpotListener {
 	private static boolean has = false;
 	static Thread thread;
 
+	static void setView(View v) {
 		view = v;
 	}
 
