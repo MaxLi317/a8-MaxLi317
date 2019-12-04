@@ -8,7 +8,7 @@ public class StartGame {
 	public static void main(String[] args) {
         /* Create top level window. */
         JFrame mainFrame = new JFrame();
-        mainFrame.setTitle("Example");
+        mainFrame.setTitle("Game Of Life");
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         /* Create panel for content. Uses BorderLayout. */
